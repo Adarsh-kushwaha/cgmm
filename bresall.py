@@ -1,4 +1,3 @@
-from turtle import xcor
 import matplotlib.pyplot as plt
 
 xcord = []
@@ -47,7 +46,7 @@ drawLine(1, 1, 5, 3)
 
 print(xcord, ycord)
 
-plt.xlim(0,10)
-plt.ylim(0,10)
-plt.plot(xcord,ycord,"*")
+plt.xlim(0, 10)
+plt.ylim(0, 10)
+plt.plot(xcord, ycord, "*")
 plt.show()
